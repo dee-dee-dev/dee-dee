@@ -68,7 +68,7 @@ export default function Home() {
         <link href="https://fonts.cdnfonts.com/css/data-70" rel="stylesheet" />
       </Head>
 
-      <body className="antialiased font-geist bg-dark-primary text-white overflow-x-hidden">
+      <div className="antialiased font-geist bg-dark-primary text-white overflow-x-hidden">
         {/* Grid Overlay Background */}
         <div className="grid-overlay">
           <div className="grid-inner">
@@ -339,7 +339,7 @@ export default function Home() {
             </div>
           </div>
         </footer>
-      </body>
+      </div>
     </>
   );
 }
