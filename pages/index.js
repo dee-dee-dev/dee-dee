@@ -1,5 +1,6 @@
 import { useEffect, useRef, useState } from 'react';
 import Head from 'next/head';
+import '../css/main.css'; // Add this line
 
 export default function Home() {
   const chatMessagesRef = useRef(null);
